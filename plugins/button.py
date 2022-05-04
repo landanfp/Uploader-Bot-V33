@@ -45,7 +45,7 @@ async def youtube_dl_call_back(bot, update):
             revoke=True
         )
         return False
-    youtube_dl_url = update.message.message_id
+    youtube_dl_url = disable_web_page_preview=True
     custom_file_name = str(response_json.get("title")) + \
         "_" + youtube_dl_format + "." + youtube_dl_ext
     youtube_dl_username = None
