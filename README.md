@@ -3,10 +3,10 @@
   <b> ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ ᴠ𝟸 </b>
 </h1>
 
-<p align="center" > <img alt="GitHub forks" src="https://img.shields.io/github/forks/Tellyfun/Uploader-Bot?label=%F0%9F%8D%B4Forks&logoColor=blue&style=social">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Tellyfun/Uploader-Bot?label=%E2%AD%90%EF%B8%8FStars&logoColor=blue&style=social"> </p>
+<p align="center" > <img alt="GitHub forks" src="https://img.shields.io/github/forks/Tellyfun/Uploader-Bot-V3?label=%F0%9F%8D%B4Forks&logoColor=blue&style=social">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Tellyfun/Uploader-Bot-V3?label=%E2%AD%90%EF%B8%8FStars&logoColor=blue&style=social"> </p>
 
-<p align="center"><a href="https://github.com/Tellyfun/Uploader-Bot"><img src="https://github-readme-stats.vercel.app/api/pin?username=Tellyfun&show_icons=true&theme=dracula&hide_border=true&repo=Uploader-Bot"></a></p>
+<p align="center"><a href="https://github.com/Tellyfun/Uploader-Bot-V3"><img src="https://github-readme-stats.vercel.app/api/pin?username=Tellyfun&show_icons=true&theme=dracula&hide_border=true&repo=Uploader-Bot-V3"></a></p>
 
 
 
