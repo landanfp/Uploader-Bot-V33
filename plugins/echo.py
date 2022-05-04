@@ -27,7 +27,7 @@ from functions.ran_text import random_char
 from plugins.database.add import add_user_to_database
 from pyrogram.types import Thumbnail
 
-@Client.on_message(filters.private & filters.regex(pattern=".*http.*"))
+@Client.on_edited_message(filters.private & filters.regex(pattern=".*http.*"))
 async def echo(bot, update):
     if Config.LOG_CHANNEL:
         try:
@@ -177,12 +177,7 @@ async def echo(bot, update):
                     format_string = formats.get("format")
                 format_ext = formats.get("ext")
                 approx_file_size = ""
-                if "filesize" in formats:
-                    approx_file_size = humanbytes(formats["filesize"])
-                cb_string_video = "{}|{}|{}|{}".format(
-                    "video", format_id, format_ext, randem)
-                cb_string_file = "{}|{}|{}|{}".format(
-                    "file", format_id, format_ext, randem)
+                if "filesize" in formats, format_ext, randem)
                 if format_string is not None and not "audio only" in format_string:
                     ikeyboard = [
                         InlineKeyboardButton(
