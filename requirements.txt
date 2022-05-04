@@ -3,7 +3,7 @@ beautifulsoup4
 hachoir
 numpy
 Pillow
-pyrogram
+pyrogram=2.0.16
 requests
 tgcrypto
 https://github.com/Naysabots/yt-dlp/archive/refs/tags/2022.04.08.zip
