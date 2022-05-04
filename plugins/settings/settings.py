@@ -3,6 +3,8 @@
 import asyncio
 from pyrogram import types, errors
 from plugins.config import Config
+from pyrogram.errors import MessageNotModified, FloodWait
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from plugins.database.database import db
 
 async def OpenSettings(m: Message, user_id: int):
