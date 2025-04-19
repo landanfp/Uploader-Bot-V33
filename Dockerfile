@@ -8,7 +8,7 @@ RUN curl -sL https://deb.nodesource.com/setup_20.x | bash - && \
     npm i -g npm
 COPY requirements.txt /requirements.txt
 RUN cd /
-RUN pip3 install -U -r requirements.txt
+RUN pip3 install --break-system-packages -U -r requirements.txt
 RUN mkdir /Uploader-Bot
 WORKDIR /Uploader-Bot
 COPY start.sh /start.sh
