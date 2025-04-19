@@ -49,7 +49,7 @@ class Config(object):
     SESSION_NAME = os.environ.get("SESSION_NAME", "Rename-Bot-0")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001792962793"))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "763990585"))
     # Update channel for Force Subscribe
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001792962793")
     
