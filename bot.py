@@ -6,6 +6,20 @@ logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+import ntplib
+import time
+from datetime import datetime
+
+try:
+    ntp_client = ntplib.NTPClient()
+    response = ntp_client.request('pool.ntp.org')
+    current_time = datetime.fromtimestamp(response.tx_time)
+    print(f"NTP Time: {current_time}")
+    time_offset = response.tx_time - time.time()
+    # اختیاری: print(f"Time offset: {time_offset} seconds")
+except Exception as e:
+    print(f"NTP sync failed: {e}")
+
 import os
 from plugins.config import Config
 
