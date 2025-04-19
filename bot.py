@@ -10,7 +10,8 @@ from datetime import datetime, timezone
 import ntplib
 from pyrogram import Client as Tellybots
 from pyrogram import filters
-from pyrogram.idle import idle
+from pyrogram import idle
+
 
 from plugins.config import Config
 
